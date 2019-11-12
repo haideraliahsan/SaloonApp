@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		358A245C893533CB49004BBF /* Pods_SaloonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17A82AC65CA9128E6EEB354 /* Pods_SaloonApp.framework */; };
 		6F029EE82373CD2200AAB812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EE72373CD2200AAB812 /* AppDelegate.swift */; };
 		6F029EEA2373CD2200AAB812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EE92373CD2200AAB812 /* SceneDelegate.swift */; };
-		6F029EEC2373CD2200AAB812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EEB2373CD2200AAB812 /* ViewController.swift */; };
-		6F029EEF2373CD2200AAB812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F029EED2373CD2200AAB812 /* Main.storyboard */; };
+		6F029EEC2373CD2200AAB812 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EEB2373CD2200AAB812 /* HomeViewController.swift */; };
+		6F029EEF2373CD2200AAB812 /* MainApplication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F029EED2373CD2200AAB812 /* MainApplication.storyboard */; };
 		6F029EF12373CD2400AAB812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F029EF02373CD2400AAB812 /* Assets.xcassets */; };
 		6F029EF42373CD2400AAB812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F029EF22373CD2400AAB812 /* LaunchScreen.storyboard */; };
+		6F029EFE2373CD4500AAB812 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EFC2373CD4500AAB812 /* SWRevealViewController.m */; };
+		6F029F002373CDD200AAB812 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F029EFF2373CDD200AAB812 /* TabBarController.swift */; };
+		6F110595237A7F74001AA1B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110594237A7F74001AA1B7 /* LoginViewController.swift */; };
+		6F110597237A8ADE001AA1B7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110596237A8ADE001AA1B7 /* SignUpViewController.swift */; };
+		6F38E49C23776A960078C590 /* ColouringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F38E49B23776A960078C590 /* ColouringsViewController.swift */; };
+		6F3DA4D5237A0DE9006ADA6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3DA4D4237A0DE9006ADA6E /* GoogleService-Info.plist */; };
+		6F3DA4D7237A170E006ADA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3DA4D6237A170E006ADA6E /* Main.storyboard */; };
+		6F3F757223747A7C00B20421 /* methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3F757123747A7C00B20421 /* methods.swift */; };
+		6F4C1E1E2374B609005545AA /* SideBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C1E1D2374B609005545AA /* SideBarCell.swift */; };
+		6FA1CE092373D27C00AAD2D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1CE082373D27C00AAD2D9 /* ProfileViewController.swift */; };
+		6FA1CE0B2373D2F400AAD2D9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1CE0A2373D2F400AAD2D9 /* MenuViewController.swift */; };
+		6FA1CE0F2373DEDC00AAD2D9 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1CE0E2373DEDC00AAD2D9 /* CategoryCell.swift */; };
+		6FA41DBF2373E51C0048622B /* ReferencedScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA41DBD2373E51C0048622B /* ReferencedScreens.storyboard */; };
+		6FA41DC22373E5570048622B /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA41DC12373E5570048622B /* EditProfileController.swift */; };
+		6FF9E75E23743C31004FB56C /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9E75D23743C31004FB56C /* CommonMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B523DBDF065E793450666D6 /* Pods-SaloonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaloonApp.release.xcconfig"; path = "Target Support Files/Pods-SaloonApp/Pods-SaloonApp.release.xcconfig"; sourceTree = "<group>"; };
+		1019C20E162B6DC953D7D1BC /* Pods-SaloonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaloonApp.debug.xcconfig"; path = "Target Support Files/Pods-SaloonApp/Pods-SaloonApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6F029EE42373CD2200AAB812 /* SaloonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaloonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F029EE72373CD2200AAB812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F029EE92373CD2200AAB812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F029EEB2373CD2200AAB812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F029EEE2373CD2200AAB812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F029EEB2373CD2200AAB812 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F029EEE2373CD2200AAB812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainApplication.storyboard; sourceTree = "<group>"; };
 		6F029EF02373CD2400AAB812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F029EF32373CD2400AAB812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F029EF52373CD2400AAB812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F029EFB2373CD4500AAB812 /* SaloonApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaloonApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F029EFC2373CD4500AAB812 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6F029EFD2373CD4500AAB812 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6F029EFF2373CDD200AAB812 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6F110594237A7F74001AA1B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6F110596237A8ADE001AA1B7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6F38E49B23776A960078C590 /* ColouringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColouringsViewController.swift; sourceTree = "<group>"; };
+		6F3DA4D4237A0DE9006ADA6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6F3DA4D6237A170E006ADA6E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F3F757123747A7C00B20421 /* methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = methods.swift; sourceTree = "<group>"; };
+		6F4C1E1D2374B609005545AA /* SideBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarCell.swift; sourceTree = "<group>"; };
+		6FA1CE082373D27C00AAD2D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6FA1CE0A2373D2F400AAD2D9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6FA1CE0E2373DEDC00AAD2D9 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		6FA41DBE2373E51C0048622B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SaloonApp/Base.lproj/ReferencedScreens.storyboard; sourceTree = "<group>"; };
+		6FA41DC12373E5570048622B /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		6FF9E75D23743C31004FB56C /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		E17A82AC65CA9128E6EEB354 /* Pods_SaloonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaloonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358A245C893533CB49004BBF /* Pods_SaloonApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15C8BBB495A05EA5F6533ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17A82AC65CA9128E6EEB354 /* Pods_SaloonApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F029EDB2373CD2200AAB812 = {
 			isa = PBXGroup;
 			children = (
 				6F029EE62373CD2200AAB812 /* SaloonApp */,
 				6F029EE52373CD2200AAB812 /* Products */,
+				6F029EE92373CD2200AAB812 /* SceneDelegate.swift */,
+				73E8886B63FF2F904A675CEF /* Pods */,
+				15C8BBB495A05EA5F6533ED0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +105,79 @@
 			isa = PBXGroup;
 			children = (
 				6F029EE72373CD2200AAB812 /* AppDelegate.swift */,
-				6F029EE92373CD2200AAB812 /* SceneDelegate.swift */,
-				6F029EEB2373CD2200AAB812 /* ViewController.swift */,
-				6F029EED2373CD2200AAB812 /* Main.storyboard */,
+				6F3DA4D6237A170E006ADA6E /* Main.storyboard */,
+				6F029EFD2373CD4500AAB812 /* SWRevealViewController.h */,
+				6F029EFC2373CD4500AAB812 /* SWRevealViewController.m */,
 				6F029EF02373CD2400AAB812 /* Assets.xcassets */,
 				6F029EF22373CD2400AAB812 /* LaunchScreen.storyboard */,
+				6F3DA4D4237A0DE9006ADA6E /* GoogleService-Info.plist */,
 				6F029EF52373CD2400AAB812 /* Info.plist */,
+				6F029EFB2373CD4500AAB812 /* SaloonApp-Bridging-Header.h */,
+				6FF9E75C23743C23004FB56C /* Helper */,
+				6FA41DC02373E5240048622B /* ReferenceStoryBoards */,
+				6FA1CE0D2373DEBB00AAD2D9 /* Controllers */,
+				6FA41DC32373E8F00048622B /* SideBarController */,
+				6FA1CE0C2373DEAC00AAD2D9 /* Main Controllers */,
 			);
 			path = SaloonApp;
+			sourceTree = "<group>";
+		};
+		6FA1CE0C2373DEAC00AAD2D9 /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F029EEB2373CD2200AAB812 /* HomeViewController.swift */,
+				6FA1CE082373D27C00AAD2D9 /* ProfileViewController.swift */,
+			);
+			path = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		6FA1CE0D2373DEBB00AAD2D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1CE0E2373DEDC00AAD2D9 /* CategoryCell.swift */,
+				6F38E49B23776A960078C590 /* ColouringsViewController.swift */,
+				6FA41DC12373E5570048622B /* EditProfileController.swift */,
+				6F110594237A7F74001AA1B7 /* LoginViewController.swift */,
+				6F110596237A8ADE001AA1B7 /* SignUpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6FA41DC02373E5240048622B /* ReferenceStoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6FA41DBD2373E51C0048622B /* ReferencedScreens.storyboard */,
+				6F029EED2373CD2200AAB812 /* MainApplication.storyboard */,
+			);
+			path = ReferenceStoryBoards;
+			sourceTree = "<group>";
+		};
+		6FA41DC32373E8F00048622B /* SideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6F029EFF2373CDD200AAB812 /* TabBarController.swift */,
+				6F4C1E1D2374B609005545AA /* SideBarCell.swift */,
+				6FA1CE0A2373D2F400AAD2D9 /* MenuViewController.swift */,
+			);
+			path = SideBarController;
+			sourceTree = "<group>";
+		};
+		6FF9E75C23743C23004FB56C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9E75D23743C31004FB56C /* CommonMethods.swift */,
+				6F3F757123747A7C00B20421 /* methods.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		73E8886B63FF2F904A675CEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1019C20E162B6DC953D7D1BC /* Pods-SaloonApp.debug.xcconfig */,
+				0B523DBDF065E793450666D6 /* Pods-SaloonApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F029EF82373CD2400AAB812 /* Build configuration list for PBXNativeTarget "SaloonApp" */;
 			buildPhases = (
+				A8A241C0A74C5AD0ED1308F4 /* [CP] Check Pods Manifest.lock */,
 				6F029EE02373CD2200AAB812 /* Sources */,
 				6F029EE12373CD2200AAB812 /* Frameworks */,
 				6F029EE22373CD2200AAB812 /* Resources */,
+				DB0E0443EB86BFE0EFF8FC19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +214,7 @@
 				TargetAttributes = {
 					6F029EE32373CD2200AAB812 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -126,33 +242,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F029EF42373CD2400AAB812 /* LaunchScreen.storyboard in Resources */,
+				6FA41DBF2373E51C0048622B /* ReferencedScreens.storyboard in Resources */,
+				6F3DA4D7237A170E006ADA6E /* Main.storyboard in Resources */,
+				6F3DA4D5237A0DE9006ADA6E /* GoogleService-Info.plist in Resources */,
 				6F029EF12373CD2400AAB812 /* Assets.xcassets in Resources */,
-				6F029EEF2373CD2200AAB812 /* Main.storyboard in Resources */,
+				6F029EEF2373CD2200AAB812 /* MainApplication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8A241C0A74C5AD0ED1308F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaloonApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0E0443EB86BFE0EFF8FC19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaloonApp/Pods-SaloonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaloonApp/Pods-SaloonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaloonApp/Pods-SaloonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F029EE02373CD2200AAB812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F029EEC2373CD2200AAB812 /* ViewController.swift in Sources */,
+				6FA1CE092373D27C00AAD2D9 /* ProfileViewController.swift in Sources */,
+				6F029EEC2373CD2200AAB812 /* HomeViewController.swift in Sources */,
+				6F4C1E1E2374B609005545AA /* SideBarCell.swift in Sources */,
+				6FA41DC22373E5570048622B /* EditProfileController.swift in Sources */,
 				6F029EE82373CD2200AAB812 /* AppDelegate.swift in Sources */,
+				6F3F757223747A7C00B20421 /* methods.swift in Sources */,
+				6FA1CE0F2373DEDC00AAD2D9 /* CategoryCell.swift in Sources */,
+				6F38E49C23776A960078C590 /* ColouringsViewController.swift in Sources */,
+				6FA1CE0B2373D2F400AAD2D9 /* MenuViewController.swift in Sources */,
+				6F110597237A8ADE001AA1B7 /* SignUpViewController.swift in Sources */,
+				6F110595237A7F74001AA1B7 /* LoginViewController.swift in Sources */,
 				6F029EEA2373CD2200AAB812 /* SceneDelegate.swift in Sources */,
+				6F029EFE2373CD4500AAB812 /* SWRevealViewController.m in Sources */,
+				6F029F002373CDD200AAB812 /* TabBarController.swift in Sources */,
+				6FF9E75E23743C31004FB56C /* CommonMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6F029EED2373CD2200AAB812 /* Main.storyboard */ = {
+		6F029EED2373CD2200AAB812 /* MainApplication.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6F029EEE2373CD2200AAB812 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainApplication.storyboard;
 			sourceTree = "<group>";
 		};
 		6F029EF22373CD2400AAB812 /* LaunchScreen.storyboard */ = {
@@ -161,6 +334,14 @@
 				6F029EF32373CD2400AAB812 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA41DBD2373E51C0048622B /* ReferencedScreens.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA41DBE2373E51C0048622B /* Base */,
+			);
+			name = ReferencedScreens.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,34 +463,41 @@
 		};
 		6F029EF92373CD2400AAB812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1019C20E162B6DC953D7D1BC /* Pods-SaloonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SaloonApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Haider-sEnterprise.SaloonApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haider-sEnterprise.SaloonFirebaseApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "SaloonApp/SaloonApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6F029EFA2373CD2400AAB812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B523DBDF065E793450666D6 /* Pods-SaloonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SaloonApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Haider-sEnterprise.SaloonApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haider-sEnterprise.SaloonFirebaseApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "SaloonApp/SaloonApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

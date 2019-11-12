@@ -1,0 +1,6 @@
+framework module Pods_SaloonApp {
+  umbrella header "Pods-SaloonApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

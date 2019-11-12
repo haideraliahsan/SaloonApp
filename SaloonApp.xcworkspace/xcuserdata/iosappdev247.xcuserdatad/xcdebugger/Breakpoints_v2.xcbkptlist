@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2DF765B9-F4A7-4EC0-A730-FB8F2412B85A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D885EB2-F3D4-42DC-81A6-246911BB178A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SaloonApp/Controllers/ColouringsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "ColouringsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0D885EB2-F3D4-42DC-81A6-246911BB178A - 1a3178b886363c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.bookingCell.getter : Swift.String"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "0D885EB2-F3D4-42DC-81A6-246911BB178A - e20a3022c4710b2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SaloonApp.ColouringsViewController"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "0D885EB2-F3D4-42DC-81A6-246911BB178A - 375605f2a2154bd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SaloonApp.ColouringsViewController&gt;"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ECC2099-F511-477B-9B0E-B690D55B7771"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SaloonApp/Controllers/ColouringsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "ColouringsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2ECC2099-F511-477B-9B0E-B690D55B7771 - 1a3178b886363c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.bookingCell.getter : Swift.String"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "2ECC2099-F511-477B-9B0E-B690D55B7771 - e20a3022c4710b2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SaloonApp.ColouringsViewController"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "2ECC2099-F511-477B-9B0E-B690D55B7771 - 375605f2a2154bd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaloonApp.ColouringsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SaloonApp.ColouringsViewController&gt;"
+                  moduleName = "SaloonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosappdev247/Desktop/SaloonApp/SaloonApp/Controllers/ColouringsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>549689311788-g2qc1k387kpu8ct31c63stmf693u9fg6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.549689311788-g2qc1k387kpu8ct31c63stmf693u9fg6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>549689311788-mtl4t911c3uiru99js3rer1r3636jffb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfci6hjk_OVzAz6Khbq2XLxQLSO-xt8d0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>549689311788</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Haider-sEnterprise.SaloonFirebaseApp</string>
+	<key>PROJECT_ID</key>
+	<string>saloon-71d94</string>
+	<key>STORAGE_BUCKET</key>
+	<string>saloon-71d94.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:549689311788:ios:937d1fc026a45748980789</string>
+	<key>DATABASE_URL</key>
+	<string>https://saloon-71d94.firebaseio.com</string>
+</dict>
+</plist>
